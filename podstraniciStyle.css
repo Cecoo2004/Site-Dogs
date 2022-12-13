@@ -2,6 +2,7 @@
     color: black;
     text-align: center;
 }
+
 h2 {
     color: black;
     text-align: center;
@@ -23,32 +24,66 @@ img {
     float: left;
     margin: 80px;
 }
-body{
-    background-color:azure;
 
+body {
+    background-color: azure;
 }
+
 a {
-    position:fixed;
+    position: fixed;
     right: 0;
     bottom: 0;
     padding: 10px;
     text-decoration: none;
     color: coral;
 }
-a:hover{
-    opacity:0.5;
-}
+
+    a:hover {
+        opacity: 0.5;
+    }
+
 .button-next {
     position: fixed;
     bottom: 0;
     right: 0;
     margin: 5px 3px 40px 200px;
     padding: 3px 3px;
-
     background-color: black;
     color: white;
     letter-spacing: 2px;
+    border-radius: 20px;
 }
-.button-next:hover{
+
+    .button-next:hover {
+        opacity: 0.5;
+    }
+
+.button-previous {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 5px 180px 40px 200px;
+    padding: 3px 3px;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+
+    .button-previous:hover {
+        opacity: 0.5;
+    }
+.button-previous-lastpage {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 5px 3px 40px 200px;
+    padding: 3px 3px;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+.button-previous-lastpage:hover {
     opacity: 0.5;
 }
